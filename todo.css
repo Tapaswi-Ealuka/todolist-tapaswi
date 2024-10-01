@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.todo-container{
+    margin: auto;
+    padding: 20;
+    background-color: aliceblue;
+    max-width: 400px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.input{
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+}
+.li{
+    padding: 10px;
+    justify-content: space-between;
+    display:flex;
+}
+.delete-button{
+    background-color: brown;
+    color:aliceblue;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.add-button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
